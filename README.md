@@ -24,9 +24,22 @@ All tasks are performed in LetsDefend
 - Search and analyze information about malicious process executed on Terminal.
 ![image](https://github.com/buiduchoang24/SOC-Fundamentals/assets/166605385/38cd026b-0cc9-420e-b066-3ed13aed1aa0)
 
-
 ## SOAR - Security Orchestration Automation and Response
 - SOAR stands for Security Orchestration Automation and Response. It enables security products and tools in an environment to work together, streamlining the tasks of SOC team members. For example, it will automatically search VirusTotal for the source IP of a SIEM alert, reducing the workload of the SOC analyst.
+
+## Threat Intelligence
+- This has feeds, which are data such as malware hashes, C2 (Command&Control) domain/IP addresses,... and provided by a third party.
+- Here is an interface of Theat Intelligence Feed of LetsDefend.
+![image](https://github.com/buiduchoang24/SOC-Fundamentals/assets/166605385/6f69518e-f9ca-4e23-af24-533ff9ee0e3a)
+- I can filter malware by its hash and see where it came from
+![image](https://github.com/buiduchoang24/SOC-Fundamentals/assets/166605385/65eb18c3-9a3e-450e-aad4-4a3ebadccdfe)
+
+## Some common mistake that SOC analyst may have
+- Over-reliance on VirusTotal Results: Sometimes, there are new malwares that have anti virus bypass techniques, so VirusTotal can't scan them.
+- Do not analyze malware in Sandbox carefully
+- Inadaquate log analysis
+
+
 
 
 
