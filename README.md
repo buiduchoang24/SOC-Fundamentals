@@ -21,6 +21,13 @@ All tasks are performed in LetsDefend
 ![image](https://github.com/buiduchoang24/SOC-Fundamentals/assets/166605385/0a26e53a-66a6-4848-9506-293b020cc95e)
 - In EDR, I can see many details about events like Event Time, Process ID, Command Line, Target Process Command Line, Browser History, Terminal History, Network Action,...
 ![image](https://github.com/buiduchoang24/SOC-Fundamentals/assets/166605385/8d22c098-2aa8-461d-83b3-f1ead048f502)
+- Search and analyze information about malicious process executed on Terminal.
+![image](https://github.com/buiduchoang24/SOC-Fundamentals/assets/166605385/38cd026b-0cc9-420e-b066-3ed13aed1aa0)
+
+
+## SOAR - Security Orchestration Automation and Response
+- SOAR stands for Security Orchestration Automation and Response. It enables security products and tools in an environment to work together, streamlining the tasks of SOC team members. For example, it will automatically search VirusTotal for the source IP of a SIEM alert, reducing the workload of the SOC analyst.
+
 
 
 
